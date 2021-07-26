@@ -31,6 +31,6 @@ app.use(routes)
 
 
 
-app.listen(process.env.PORT ||3000,()=>{
+app.listen(3000,()=>{
     console.log("Aplicação rodando")
 })
