@@ -1,0 +1,274 @@
+*{
+  margin:0;
+  padding:0;
+  outline:0;
+  box-sizing: 0;
+  
+} 
+
+body {
+  height:100vh;
+  background: linear-gradient(0deg, rgb(226, 120, 78) 27%, rgba(228, 88, 28, 0.685) 100%);
+  }
+  .logonav{
+  height:60px;
+  width: 200px;
+  margin-left:30%;
+
+}
+
+.navbar-list{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:rgb(59, 146, 245);
+  text-decoration:none;
+  font-size:25px;
+  font-weight:500;
+  border-radius:10px;
+  text-align:center;
+  width: 25%;
+  
+}
+
+@media (max-width:1000px){
+  .navbar-list{
+      width: 100%;
+      
+  }}
+
+
+
+.container{
+  display: flex;
+  width:90%;
+  justify-content: center;
+  border-radius: 5px;
+ 
+}
+.card-header{
+  
+  background-color: rgb(255, 255, 255);
+  width:100%;
+  justify-content: center;
+  
+
+}
+
+
+
+.card-body{
+  
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 10px;
+  
+  
+}
+
+.form{
+ 
+  justify-content: center;
+ 
+}
+#form-cadastro{
+  border-radius: 15px;
+  margin-top:0vh;
+  width:100%;
+  
+ 
+}
+.imggirl{
+  height:350px;
+  
+}
+#btnsalvar{
+  margin-top:10px;
+  width:40%;
+  
+}
+
+#data, #dataAtualizacao{
+  width:35%;
+}
+@media (max-width:1000px){
+  #data{
+      width: 100%;
+      
+  }}
+@media (max-width:1000px){
+    #dataAtualizacao{
+        width: 100%;
+        
+    }}
+
+@media (max-width:700px){
+      .imggirl{
+        display:none;
+      }}
+@media (max-width:700px){
+        .card-body{
+          grid-template-columns:1fr;
+          
+        }}
+        @media (max-width:700px){
+          .container{
+            width: 100%;
+            
+          }  }
+@media (max-width:700px){
+        .form{
+          width: 100%;
+          
+        } }
+        
+
+
+
+.form-control{
+  width:90%;
+  
+}
+@media (max-width:700px){
+  .form-control{
+    width: 100%;
+    
+  } }   
+.divbtn{
+ 
+  display:flex;
+  justify-content:center;
+  width: 90%;
+}
+ 
+/* ListClient */
+
+.logonavlist{
+  height:60px;
+  width: 200px;
+  margin-left:30%;
+
+}
+@media (max-width:900px){
+  .logonavlist{
+    margin-left:0;
+  } } 
+
+#searchinput{
+  width: 40%;
+}
+#btnsearch{
+  margin-top:0;
+  width:40%;
+}
+
+
+@media (max-width:900px){
+  #searchinput{
+    width: 100%;
+    
+  } }   
+  @media (max-width:900px){
+    #btnsearch{
+      width: 100%;
+      
+    } } 
+ 
+
+@media (max-width:900px){
+  .card-header{
+    display: grid;
+    
+  } }   
+  
+  @media (max-width:900px){
+    .card-title{
+      display: none;
+    } }   
+    @media (max-width:900px){
+      .navbar{
+        justify-content: center;
+        display: grid;
+      } }   
+    @media (max-width:900px){
+      .logonav{
+        margin-left:0;
+      } }   
+    
+.resume{
+  padding:20px;
+ 
+}
+.dados{
+  padding: 15px;
+}
+.divimgperfil{
+  display:flex;
+  align-items: center;
+ 
+}
+
+.div-icons{
+ 
+  display: inline;
+  align-items: center;
+}
+
+@media (max-width:700px){
+  .logonav{
+    margin-left:0;
+  } }   
+@media (max-width:900px){
+  .divimgperfil{
+    justify-content: center;
+  } }  
+ 
+  @media (max-width:900px){
+    .div-icons{
+      display:flex;
+      justify-content: center;
+    } }  
+
+.imgperfil{
+  height:150px;
+  width: 150px;
+  border-radius:20px;
+}
+.icons{
+  border: none;
+  padding-right: 10px;
+}
+
+#editar{
+  width:50%;
+}
+@media (max-width:410px){
+  #editar{
+    width:30%
+  } }  
+
+#excluir{
+  width:50%;
+}
+@media (max-width:410px){
+  #excluir{
+    width:30%
+  } } 
+
+label{
+  font-size:20px;
+}
+
+#btnnovocad{
+  margin-right: 100px;
+ width: 70%;
+  
+}
+@media (max-width:900px){
+  #btnnovocad{
+    margin-right: 0;
+    margin-left: 25px;
+  } } 
+
+#demo{
+  display:none;
+}
+
